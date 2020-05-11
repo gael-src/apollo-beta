@@ -85,25 +85,21 @@ const employees = [
   },
 ];
 
-let bodyEl = document.querySelector("body");
-
+const bodyEl = document.querySelector("body");
 bodyEl.style.margin = "50px 0 0 0";
 bodyEl.style.padding = "0";
 bodyEl.style.boxSizing = "border-box";
 bodyEl.style.backgroundColor = "#fbd14b";
 bodyEl.style.textAlign = "center";
+bodyEl.style.fontFamily = "arial";
 
 const mar = document.querySelector(".employees");
-
 mar.style.height = "100vh";
 mar.style.color = "#fbd14b";
-mar.style.fontFamily = "arial";
 mar.style.fontWeight = "bold";
-
 mar.style.display = "flex";
 mar.style.justifyContent = "space-evenly";
 mar.style.alignItems = "center";
-
 mar.style.textAlign = "center";
 
 employees.map((employee) => {
