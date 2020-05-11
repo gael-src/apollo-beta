@@ -94,7 +94,7 @@ bodyEl.style.textAlign = "center";
 bodyEl.style.fontFamily = "arial";
 
 const mar = document.querySelector(".employees");
-mar.style.height = "100vh";
+mar.style.height = "80vh";
 mar.style.color = "#fbd14b";
 mar.style.fontWeight = "bold";
 mar.style.display = "flex";
