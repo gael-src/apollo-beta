@@ -80,7 +80,6 @@ const employees = [
 ];
 
 // BODY
-
 const bodyEl = document.querySelector("body");
 bodyEl.style.margin = "0";
 bodyEl.style.padding = "0";
@@ -90,14 +89,12 @@ bodyEl.style.textAlign = "center";
 bodyEl.style.fontFamily = "arial";
 
 // H1 TITLE
-
 // bodyEl.style.maxWidth = "100vw";
 // let title = document.createElement("h1");
 // title.classList.add("title");
 // title.innerText = "Apollo 18";
 
 // MAIN DIV
-
 const mar = document.querySelector(".employees");
 mar.style.minHeight = "80vh";
 // mar.style.maxWidth = "100vw";
@@ -110,10 +107,8 @@ mar.style.alignItems = "center";
 mar.style.textAlign = "center";
 
 // FUNCTION
-
 employees.map((employee) => {
   // create elements
-
   let employeeDiv = document.createElement("div");
   employeeDiv.classList.add("kinder");
   employeeDiv.style.backgroundColor = "#6a60a9";
@@ -127,16 +122,13 @@ employees.map((employee) => {
   // employeeDiv.style.margin = 'auto';
 
   // IMAGE
-
   let image = document.createElement("img");
 
   // INFO DIV
-
   let info = document.createElement("div");
   info.classList.add("info");
 
   // NAME
-
   let paragraph = document.createElement("p");
   paragraph.classList.add("name");
   image.setAttribute("src", employee.image);
@@ -147,7 +139,6 @@ employees.map((employee) => {
   paragraph.style.color = "#dedcee";
 
   // MAIL LINK
-
   let link = document.createElement("a");
   link.classList.add("email");
   link.setAttribute("href", `mailto: ${employee.email}`);
@@ -157,7 +148,6 @@ employees.map((employee) => {
   link.style.fontSize = "16px";
 
   // LIST
-
   let lists = document.createElement("ul");
   lists.classList.add("hobbies");
 
@@ -171,7 +161,6 @@ employees.map((employee) => {
   });
 
   // APPENCHILD
-
   info.appendChild(paragraph);
   info.appendChild(link);
   info.appendChild(lists);
