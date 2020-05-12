@@ -1,9 +1,11 @@
 #homeH1 {
-    font-size: 50px;
+  font-size: 50px;
+  position: fixed;
+  margin: 50px 0 0 50px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .employees {
         flex-direction: column;
     }
-}
+} */
