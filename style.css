@@ -1,3 +1,9 @@
 #homeH1 {
     font-size: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .employees {
+        flex-direction: column;
+    }
+}
