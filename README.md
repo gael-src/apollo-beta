@@ -1,4 +1,4 @@
-# apollo18
+# apollo-betta
 
 myClassMates
 
