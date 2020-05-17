@@ -1,8 +1,8 @@
 # Apollo Betta
 
-myClassMates
+My Classmates
 
-dom-manipulation-exercise
+Dom Manipulation Exercise
 
 https://gael-src.github.io/apollo18/
 
